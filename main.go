@@ -9,8 +9,8 @@ import (
 	"time"
 )
 
-var node1 = flag.String("node1", "127.0.0.1:1818", "remote ip address + port")
-var node2 = flag.String("node2", "127.0.0.1:1818", "remote ip address + port")
+var node1 = flag.String("node1", "104.198.66.26:1819", "remote ip address + port")
+var node2 = flag.String("node2", "104.197.41.219:1819", "remote ip address + port")
 
 func main() {
 	flag.Parse()
